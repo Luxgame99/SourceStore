@@ -33,7 +33,7 @@ const games = [
         "3720",
         "Level Zero: Extraction",
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg",
-        "0252",
+        "1252",
         "SILENT HILL 2",
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
         "9235",
@@ -159,7 +159,7 @@ switch(gameid){
     case "3720":
         update2(8);
         break;
-    case "0252":
+    case "1252":
         update2(9);
         break;
     case "9235":
