@@ -101,7 +101,7 @@ div#stylized{background-image: url("stylized.jpg");}
 div#story{background-image: url("story.webp");}
 
 .search{
-    width: 100%;
+    width: 90%;
     padding: 1%;
     margin-top: 4em;
 }
@@ -111,7 +111,7 @@ div#story{background-image: url("story.webp");}
     font-size: 16px;
     border: 0;
     border-radius: 4px;
-    width: 50%;
+    width: 100%;
     height: 20px;
     background-color: var(--accent);
     color: white;
@@ -174,4 +174,48 @@ div#story{background-image: url("story.webp");}
     text-align: center;
     color: dimgray;
     background-color: rgba(0,0,0,0.2);
+}
+
+.overview h1{
+    text-align: center;
+}
+
+.overview iframe{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    margin: 2em 0 10em 0;
+}
+
+.basic{
+    margin: 2em 0 5em 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-shadow: 0px 0px 8px #000000;
+    padding: 10%;
+}
+
+.basic img{
+    position: absolute;
+    z-index: -1;
+    filter: blur(4px);
+    left: 0;
+    width: 100vw;
+}
+
+.basic p{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.basic button{
+    background-color: #59c53e;
+    outline: none;
+    border: 0;
+    width: 5em;
+    height: 3em;
+    margin-top: 5em;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
 }
